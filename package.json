@@ -1,0 +1,25 @@
+{
+  "name": "pet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Konrad",
+  "description": "Pet",
+  "scripts": {
+    "start": "electron-forge start",
+    "electron-forge": "electron-forge",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "^22.0.2"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
